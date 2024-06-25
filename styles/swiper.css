@@ -1,0 +1,35 @@
+:root {
+    --swiper-navigation-color: #d6a269;
+    --swiper-theme-color: #000;
+    --swiper-navigation-sides-offset: 2%;
+  }
+  
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .swiper {
+    margin: 0 auto;
+    height: auto;
+    max-width: 64rem;
+    width: 90%;
+
+    @media (min-width: 768px) {
+      margin: 0px auto;
+      height: auto;
+  
+    }
+  }
+  
+  
+    .swiper-button-prev,
+    .swiper-button-next {
+      display: none;
+    }

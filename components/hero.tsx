@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <section id="inicio" className="bg-[#2d7eb4]">
             <div className="mx-auto w-5/6 max-w-5xl py-8">
-                <div className="bg-[#1E5377]  px-4 pt-4 rounded-2xl flex flex-col md:flex-row-reverse items-center justify-center gap-4 ">
+                <div className="bg-[#1E5377]  px-8 pt-8 rounded-2xl flex flex-col md:flex-row-reverse items-center justify-center gap-4 ">
                     <div className="flex flex-col gap-4">
                         <h1 className="text-white text-xl md:text-2xl tracking-tighter leading-6 font-bold">
                             Bem-vindo a Praxis Med Brasil
