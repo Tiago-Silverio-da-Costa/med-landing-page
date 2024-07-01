@@ -19,43 +19,43 @@ export default function SliderSquad() {
     const squadList: SquadProps[] = [
         {
             image: "/squad/p12.jpg",
-            name: "Dr. Leandro A. Pereira",
-            charge: "CEO/Direção Técnica/Gerenciador de cursos"
+            name: "Dr. Fulano",
+            charge: "CEO"
         },
         {
             image: "/squad/p12.jpg",
-            name: "Dr. Marcel M. Almeida",
-            charge: "CEO/Direção Administriva/Gerenciador de cursos"
+            name: "Dr. Fulano",
+            charge: "CEO"
         },
         {
             image: "/squad/p12.jpg",
-            name: "Dr. Matheus Veloso",
-            charge: "Assessor de Expansão"
+            name: "Dr. Fulano",
+            charge: "CEO"
         },
         {
             image: "/squad/p12.jpg",
-            name: "Dr. Marcos Aguilar",
-            charge: "Gerenciador de cursos"
+            name: "Dr. Fulano",
+            charge: "CEO"
         },
         {
             image: "/squad/p12.jpg",
-            name: "Édson R.P. Almeida",
-            charge: "Assessor de Finanças"
+            name: "Dr. Fulano",
+            charge: "CEO"
         },
         {
             image: "/squad/p12.jpg",
-            name: "Adão Brum",
-            charge: "Assessor Jurídica"
+            name: "Dr. Fulano",
+            charge: "CEO"
         },
         {
             image: "/squad/p12.jpg",
-            name: "Dra. Sophia  Isabel G. Sircs",
-            charge: "Serviço de Orientação Acadêmica/ Suporte Administrativo /Atendimento ao Cliente"
+            name: "Dr. Fulano",
+            charge: "CEO"
         },
     ];
 
     return (
-        <div className="pt-8 pb-4 w-full">
+        <div className="pt-8 pb-4 w-full bg-[#2d7eb4] px-8 py-4 rounded-2xl">
             <Swiper
                 modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
                 loop={true}
@@ -66,12 +66,10 @@ export default function SliderSquad() {
                 }}
                 slidesPerView={3}
                 breakpoints={{
-                    // when window width is >= 320px
                     320: {
                         slidesPerView: 1,
                         spaceBetween: 10
                     },
-                    // when window width is >= 640px
                     640: {
                         slidesPerView: 2,
                         spaceBetween: 10

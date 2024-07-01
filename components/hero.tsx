@@ -7,11 +7,11 @@ export default function Hero() {
                 <div className="bg-[#1E5377]  px-8 pt-8 rounded-2xl flex flex-col md:flex-row-reverse items-center justify-center gap-4 ">
                     <div className="flex flex-col gap-4">
                         <h1 className="text-white text-xl md:text-2xl tracking-tighter leading-6 font-bold">
-                            Bem-vindo a Praxis Med Brasil
+                            Bem-vindo a lorem ipsum
                         </h1>
                         <p className="text-white text-sm tracking-tighter leading-6 max-w-xs">
-                            Imagine viver a medicina prática focada na realidade brasileira.
-                            A Praxi Med Brasil oportuniza a você esta experiência.
+                        Lorem ipsum dolor sit amet. Ut voluptas maxime qui
+                        eligendi et vero ratione At minima porro qui nobis sunt.
                         </p>
                     </div>
                     <Image src="/doctt.png" alt="" width={400} height={200} />

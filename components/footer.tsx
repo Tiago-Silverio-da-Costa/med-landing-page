@@ -31,7 +31,7 @@ export default function Footer() {
                 </div>
 
                 <p className="text-lg tracking-tighter font-semibold">
-                    © {new Date().getFullYear()} | Praxis Med Brasil
+                    © {new Date().getFullYear()} | Lorem ipsum
                 </p>
             </div>
         </footer >

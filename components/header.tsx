@@ -12,11 +12,8 @@ export default function Header() {
     
     return (
         <header className="text-black ">
-            <div className="justify-between mx-auto w-5/6 max-w-2xl flex items-center py-4 ">
-
-                <Image src="/logo.png" alt="" width={100} height={100}  />
-
-                <nav className="items-end gap-4 justify-center hidden md:flex">
+            <div className="justify-end md:justify-center mx-auto w-5/6 max-w-2xl flex items-center py-8">
+                <nav className="font-medium items-end gap-4 justify-center hidden md:flex">
                     <ul>
                         <li className="flex flex-col items-center">
                             <Link className="text-defaultText text-xl hover:text-defaultText/65 transition-all duration-300" href="/#inicio">Ínicio</Link>
